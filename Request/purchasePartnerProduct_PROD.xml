@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:pfws="http://pfws.webservices.symantec.com/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <pfws:purchasePartnerProduct>
+         <!--Optional:-->
+         <purchasePartnerProductRequest>
+            <requestVendor>
+               <vendorID>10004</vendorID>
+                <vendorPW>SW!tk421</vendorPW>
+               <vendorSiteID>1000389</vendorSiteID>
+            </requestVendor>
+            <!--Optional:-->
+            <version>201340</version>
+            <partnerAccountDetails>
+               <partnerId>21389232</partnerId>
+               <!--Optional:-->
+               <partnerUserId>SOS9748816TEST</partnerUserId>
+            </partnerAccountDetails>
+            <partnerUnitCode>AON</partnerUnitCode>
+            <trackingInfo>
+               <!--Optional:-->
+              <siteUser/>
+               <!--Optional:-->
+               <storeID/>
+            </trackingInfo>
+            <requestInfo>
+               <!--Optional:-->
+               <requestID>req3297175TEST</requestID>
+               <resend>0</resend>
+            </requestInfo>
+            <partnerOrderDetail>
+               <orderID>req6392104TEST</orderID>
+            </partnerOrderDetail>
+            <orderItemList>
+               <!--1 or more repetitions:-->
+               <orderItem>
+                  <!--You have a CHOICE of the next 3 items at this level-->
+                  <baseOrder>
+                     <orderItemNo>1</orderItemNo>
+                     <skup>
+                        <value>21389232</value>
+                     </skup>
+                     <quantity>1</quantity>
+                  </baseOrder>
+               </orderItem>
+            </orderItemList>
+         </purchasePartnerProductRequest>
+      </pfws:purchasePartnerProduct>
+   </soapenv:Body>
+</soapenv:Envelope>

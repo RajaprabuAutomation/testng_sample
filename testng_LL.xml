@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NGP_Mini_BA">
+   <test name="Portal_LifeLock">
+  <parameter name="browser" value="chrome" />
+  <groups>	
+		<run>	
+   		 <include name="enrollment" />	
+        </run>	
+  </groups>
+    <classes>
+      <class name="com.test.MiniBA.LifeLockServices"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

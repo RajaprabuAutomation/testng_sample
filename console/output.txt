@@ -1,0 +1,56 @@
+[RemoteTestNG] detected TestNG version 6.11.0
+Unique ID for entire Execution: 324400
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 27504
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 26, 2020 3:17:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Existing screenshot directory deleted
+WelcomePage324400: https://my-int.norton.com/
+<---- Retail SignIn Page Displayed---->
+RetailSignInPage324400: https://login-int.norton.com/sso/idp/SAML2?SAMLRequest=nZFha8IwEIb%2FSsl3m66dk4VaEMdAUBi6wdgXCempYW3O5a7q%2Fv1idW6IsOHHXN6797n38kHDKzeFjwaIo11dOVI7KvtixbxWUm6323ibxeiXMk2SG%2Fk6Gc%2FMCmotTmL7t7hjHbF2BkQ0Impg1D65L9IkTTpJ1knvnpN7ddtT3SxO0yzr9rI3ET0EJus0W3QHDwomFS6tCwM5dugZXWywlkQobbmWs8FknIroEb2BdrO%2BWOiKWt8nTWQ3cKoMiMDvZw%2FRUVODn4HfWAMv0%2FGPW%2F15bjUqwbHlTzkwBhvHkuzSBaKD5BhLXzTeKdRkSTldAyk2ag%2Bn0jhRa4%2BMBitR5G0c%2Fj9N%2BhtXFNfC5fJgV%2BTHg0PZhhQCYNhxNMR6rb2lfdyw04YD4G%2FBsAoQU1hcidte7vxqpOtqHhrmIZSFrUCiLc1cGwNEc8Z3CNSXGIpcXlyiOMqPn8UX&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=GlqMWXy175%2Fkxu8gCL0F9zDe5jyJ1i5nBVEQ%2FUtyH4k3JOJ21mrT35kX9chKCVQNHB1oxt4P1IPpBYSOydbvRUvLD12J6e4zOzgIED6weNH6UBjJTrejiIDARvR0RNBHEG9MgruPn28CiXwPho6U7CHl4%2F%2BBMAMX32reWcTTrdbhwZ%2Fv90PqimEJD%2B2vjt%2F9VPRk4LET7Q2LDGwwz6kRT1YiQneHqy2ZROytnTM9zrLFnIzSisJr9xCZHGnK4ABQvD%2ByKZQTjJUKmjwBetemcg5Bl%2FJqCMryeDWL3f3fx6taBu70x6poxjJR2NUEHYWltJ9jgZFiA%2B1VQEW7Bc77wg%3D%3D&displang=eng&displocale=USA
+SignIn Successful
+
+Dashboard324400: https://my-int.norton.com/extspa/dashboard/Home
+
+SUBSCRIPTION STATUS: ACTIVE
+
+<--- Dashboard Tiles Details --->
+Number of tiles: 6
+DeviceSecurity
+DarkWebMonitor
+SecureVpn
+BackUp
+PasswordManager
+ParentControl
+
+<--- Subscription details --->
+
+Number of New license available for this Account: 1
+
+Norton 360 Deluxe
+0 OF 5 LICENSE(S) USED:
+Download
+Protect More Info
+Customer Agreement
+Agrement page Displayed
+AARP_Customet_agreement: https://my-int.norton.com/extspa/account/subscriptions?inid=mynorton_header_mynorton_accountsettings
+MONTHLY SUBSCRIPTION: ACTIVE
+NEXT BILLING DATE: 4/24/2020
+
+MySubscription324400: https://my-int.norton.com/extspa/account/subscriptions?inid=mynorton_header_mynorton_accountsettings
+Help_Content: https://my-int.norton.com/extspa/account/subscriptions?inid=mynorton_header_mynorton_accountsettings
+Directory created :: D:\P4\Rajaprabu\Rajaprabu_Workspace\MiniBA\Report\324400
+File copied :: D:\P4\Rajaprabu\Rajaprabu_Workspace\MiniBA\Report\324400\1_WelcomePage324400.png
+File copied :: D:\P4\Rajaprabu\Rajaprabu_Workspace\MiniBA\Report\324400\2_RetailSignInPage324400.png
+File copied :: D:\P4\Rajaprabu\Rajaprabu_Workspace\MiniBA\Report\324400\3_Dashboard324400.png
+File copied :: D:\P4\Rajaprabu\Rajaprabu_Workspace\MiniBA\Report\324400\4_AARP_Customet_agreement.png
+File copied :: D:\P4\Rajaprabu\Rajaprabu_Workspace\MiniBA\Report\324400\5_MySubscription324400.png
+File copied :: D:\P4\Rajaprabu\Rajaprabu_Workspace\MiniBA\Report\324400\6_Help_Content.png
+File copied :: D:\P4\Rajaprabu\Rajaprabu_Workspace\MiniBA\Report\324400\Norton_Logo.png
+
+===============================================
+NGP_Mini_BA
+Total tests run: 4, Failures: 0, Skips: 0
+===============================================
+

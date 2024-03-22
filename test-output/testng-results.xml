@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="14" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Unique ID for entire Execution: 666041]]>
+    </line>
+    <line>
+      <![CDATA[<--- Signed In Successfully --->]]>
+    </line>
+    <line>
+      <![CDATA[<--- Dashboard Tiles Details --->]]>
+    </line>
+    <line>
+      <![CDATA[DeviceSecurity]]>
+    </line>
+    <line>
+      <![CDATA[Identity]]>
+    </line>
+    <line>
+      <![CDATA[SecureVpn]]>
+    </line>
+    <line>
+      <![CDATA[BackUp]]>
+    </line>
+    <line>
+      <![CDATA[PasswordManager]]>
+    </line>
+    <line>
+      <![CDATA[ParentControl]]>
+    </line>
+    <line>
+      <![CDATA[PrivacyMonitor]]>
+    </line>
+    <line>
+      <![CDATA[UltimateHelpDesk]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-02T11:37:17Z" name="NGP_Mini_BA" finished-at="2023-02-02T11:38:00Z" duration-ms="43076">
+    <groups>
+      <group name="all">
+        <method signature="SanityCheck.A_SignUpSignIn()[pri:1, instance:com.test.MiniBA.SanityCheck@78a2da20]" name="A_SignUpSignIn" class="com.test.MiniBA.SanityCheck"/>
+        <method signature="SanityCheck.BA_DashBoard_Tiles()[pri:2, instance:com.test.MiniBA.SanityCheck@78a2da20]" name="BA_DashBoard_Tiles" class="com.test.MiniBA.SanityCheck"/>
+      </group> <!-- all -->
+      <group name="test">
+        <method signature="SanityCheck.A_SignUpSignIn()[pri:1, instance:com.test.MiniBA.SanityCheck@78a2da20]" name="A_SignUpSignIn" class="com.test.MiniBA.SanityCheck"/>
+        <method signature="SanityCheck.BA_DashBoard_Tiles()[pri:2, instance:com.test.MiniBA.SanityCheck@78a2da20]" name="BA_DashBoard_Tiles" class="com.test.MiniBA.SanityCheck"/>
+      </group> <!-- test -->
+      <group name="miniBA">
+        <method signature="SanityCheck.A_SignUpSignIn()[pri:1, instance:com.test.MiniBA.SanityCheck@78a2da20]" name="A_SignUpSignIn" class="com.test.MiniBA.SanityCheck"/>
+        <method signature="SanityCheck.BA_DashBoard_Tiles()[pri:2, instance:com.test.MiniBA.SanityCheck@78a2da20]" name="BA_DashBoard_Tiles" class="com.test.MiniBA.SanityCheck"/>
+      </group> <!-- miniBA -->
+      <group name="enrollment">
+        <method signature="SanityCheck.A_SignUpSignIn()[pri:1, instance:com.test.MiniBA.SanityCheck@78a2da20]" name="A_SignUpSignIn" class="com.test.MiniBA.SanityCheck"/>
+        <method signature="SanityCheck.BA_DashBoard_Tiles()[pri:2, instance:com.test.MiniBA.SanityCheck@78a2da20]" name="BA_DashBoard_Tiles" class="com.test.MiniBA.SanityCheck"/>
+      </group> <!-- enrollment -->
+    </groups>
+    <test started-at="2023-02-02T11:37:17Z" name="Portal_Sanity" finished-at="2023-02-02T11:38:00Z" duration-ms="43076">
+      <class name="com.test.MiniBA.SanityCheck">
+        <test-method is-config="true" signature="browserStart(java.lang.String)[pri:0, instance:com.test.MiniBA.SanityCheck@78a2da20]" started-at="2023-02-02T17:07:17Z" name="browserStart" finished-at="2023-02-02T17:07:19Z" duration-ms="1389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStart -->
+        <test-method signature="A_SignUpSignIn()[pri:1, instance:com.test.MiniBA.SanityCheck@78a2da20]" started-at="2023-02-02T17:07:19Z" name="A_SignUpSignIn" finished-at="2023-02-02T17:07:53Z" duration-ms="33839" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Unique ID for entire Execution: 666041]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- A_SignUpSignIn -->
+        <test-method signature="BA_DashBoard_Tiles()[pri:2, instance:com.test.MiniBA.SanityCheck@78a2da20]" started-at="2023-02-02T17:07:53Z" name="BA_DashBoard_Tiles" finished-at="2023-02-02T17:08:00Z" depends-on-methods="com.test.MiniBA.SanityCheck.A_SignUpSignIn" duration-ms="7693" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<--- Signed In Successfully --->]]>
+            </line>
+            <line>
+              <![CDATA[<--- Dashboard Tiles Details --->]]>
+            </line>
+            <line>
+              <![CDATA[DeviceSecurity]]>
+            </line>
+            <line>
+              <![CDATA[Identity]]>
+            </line>
+            <line>
+              <![CDATA[SecureVpn]]>
+            </line>
+            <line>
+              <![CDATA[BackUp]]>
+            </line>
+            <line>
+              <![CDATA[PasswordManager]]>
+            </line>
+            <line>
+              <![CDATA[ParentControl]]>
+            </line>
+            <line>
+              <![CDATA[PrivacyMonitor]]>
+            </line>
+            <line>
+              <![CDATA[UltimateHelpDesk]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BA_DashBoard_Tiles -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.test.MiniBA.SanityCheck@78a2da20]" started-at="2023-02-02T17:08:00Z" name="closeBrowser" finished-at="2023-02-02T17:08:00Z" duration-ms="149" status="FAIL">
+          <exception class="java.nio.file.NoSuchFileException">
+            <message>
+              <![CDATA[D:\Rajaprabu\eclipse-workspace\MiniBA\screenshots]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.NoSuchFileException: D:\Rajaprabu\eclipse-workspace\MiniBA\screenshots
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:99)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1304)
+	at com.test.configurations.DirectoryCopyExample.copyFolder(DirectoryCopyExample.java:57)
+	at com.test.configurations.DirectoryCopyExample.copyScreenshots(DirectoryCopyExample.java:23)
+	at com.test.MiniBA.SanityCheck.closeBrowser(SanityCheck.java:928)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.afterRun(TestRunner.java:958)
+	at org.testng.TestRunner.run(TestRunner.java:606)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at com.test.MiniBA.MainClass.main(MainClass.java:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.NoSuchFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.MiniBA.SanityCheck -->
+    </test> <!-- Portal_Sanity -->
+  </suite> <!-- NGP_Mini_BA -->
+</testng-results>

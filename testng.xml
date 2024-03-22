@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NGP_Mini_BA">
+   <test name="Portal">
+  <parameter name="browser" value="chrome" />
+  <groups>	
+		<run>	
+   		 <include name="miniBA" />	
+        </run>	
+  </groups>
+    <classes>
+      <class name="com.test.MiniBA.ExecutionSet_1"/>
+    </classes>
+  </test> 
+<!--    <test name="singletoncheck">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.test.MiniBA.SingletonCheck"/>
+    </classes>
+  </test>  --> 
+  
+ <!-- <test name="PortalLLS">
+  <parameter name="browser" value="chrome" />
+  <groups>	
+		<run>	
+   		 <include name="all" />	
+        </run>	
+  </groups>
+    <classes>
+      <class name="com.test.MiniBA.LifeLockServices"/>
+    </classes>
+  </test>  
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox" />
+        <groups>	
+		<run>	
+   		 <include name="enrollment" />	
+        </run>	
+  	</groups>
+      <classes>
+            <class name="com.test.MiniBA.ExecutionSet_1" />
+      </classes>
+    </test>   -->
+</suite> <!-- Suite -->
